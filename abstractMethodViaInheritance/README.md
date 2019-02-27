@@ -5,12 +5,4 @@ A student asked "Can you have a class declared abstract that has no methods in i
 This directory demonstrates the necessity for that ability.
 
 Inheritance tree:
-    Animal
-       ^
-       |
-      Pet
-       ^
-       |
-    Retriever
-
-The Pet class has no methods, but the compiler insists that it be marked abstract.
+    Animal <- Pet <- Retriever
